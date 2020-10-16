@@ -1,0 +1,67 @@
+/* Resets aswell as page color */
+* {
+  box-sizing: border-box;
+}
+/* aswell as page color */
+body {
+  margin: 0;
+  background-color: #2f3136;
+  
+}
+/* Page header to make the line under the text, colors ect */
+/* I did a orange line instead of a background colour it just looks alot cleaner */
+header {
+  display: flex;
+  justify-content: center;
+  color: #f57731;
+  border: solid #f57731;
+  font-size: 75px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+main {
+  padding-top: 50px;
+}
+/* getting the text to center under the images */
+div {
+  padding-top: 50px;
+  text-align: center;
+}
+/* the text blurb at the very top */
+.content {
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+}
+
+.content p {
+  max-width: 40ch;
+  margin: auto;
+}
+/* all the text under pictures  */
+p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+/* links to read more  */
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #f57731;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/* dates above the photo */
+h1 {
+  color: #f57731;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
